@@ -1,0 +1,55 @@
+{
+  "info": {
+    "name": "Property"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Furnished": {
+      "type": "boolean"
+    },
+    "RoomTitle": {
+      "type": "richtext"
+    },
+    "RoomContent": {
+      "type": "richtext"
+    },
+    "Size": {
+      "type": "integer"
+    },
+    "Period": {
+      "type": "richtext"
+    },
+    "Rent": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "FrontPicture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Rented": {
+      "type": "boolean"
+    },
+    "PropertyPictures": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "properties"
+}

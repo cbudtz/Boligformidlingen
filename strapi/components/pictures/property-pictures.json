@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "PropertyPictures",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "PropertyPictures": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_pictures_property_pictures"
+}
