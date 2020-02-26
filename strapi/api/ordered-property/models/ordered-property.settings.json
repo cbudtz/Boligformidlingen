@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "displayedproperties",
+  "info": {
+    "name": "DisplayedProperty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "OrderedProperty": {
+      "type": "component",
+      "repeatable": true,
+      "component": "orderedproperty.ordered-property"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
