@@ -18,23 +18,8 @@
     "Furnished": {
       "type": "boolean"
     },
-    "RoomTitle": {
-      "type": "richtext"
-    },
-    "RoomContent": {
-      "type": "richtext"
-    },
     "Size": {
       "type": "integer"
-    },
-    "Period": {
-      "type": "richtext"
-    },
-    "Rent": {
-      "type": "richtext"
-    },
-    "Description": {
-      "type": "richtext"
     },
     "FrontPicture": {
       "model": "file",
@@ -55,6 +40,21 @@
         "no",
         "onhold"
       ]
+    },
+    "RoomTitle": {
+      "type": "string"
+    },
+    "RoomText": {
+      "type": "string"
+    },
+    "Rent": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Period": {
+      "type": "string"
     }
   }
 }
