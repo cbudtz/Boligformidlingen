@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "propertypicture",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_arrangeableimage_propertypictures"
+}

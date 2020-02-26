@@ -27,12 +27,6 @@
       "plugin": "upload",
       "required": false
     },
-    "PropertyPictures": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
-    },
     "Rented": {
       "type": "enumeration",
       "enum": [
@@ -55,6 +49,11 @@
     },
     "Period": {
       "type": "string"
+    },
+    "propertypictures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "arrangeableimage.propertypicture"
     }
   }
 }
