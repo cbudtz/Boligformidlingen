@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "properties",
   "info": {
     "name": "Property"
   },
@@ -40,16 +42,19 @@
       "plugin": "upload",
       "required": false
     },
-    "Rented": {
-      "type": "boolean"
-    },
     "PropertyPictures": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "Rented": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no",
+        "onhold"
+      ]
     }
-  },
-  "connection": "default",
-  "collectionName": "properties"
+  }
 }
